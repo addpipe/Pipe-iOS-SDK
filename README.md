@@ -78,8 +78,6 @@ In your .h file add
 ```
 @interface ViewController:UIViewController<PipeRecorderDelegate>
 
-...
-
 ```
 
 In your .m file add
