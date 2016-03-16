@@ -56,7 +56,7 @@ recorder.payload = @"My custom data payload";
 
 ```
 recorder.showsCameraControls = NO;
-recorder.cameraOverlayView = a_custom_made_view
+recorder.cameraOverlayView = a_custom_made_view;
 ```
 
 Pipe Recorder is a subclass of UIImagePickerController, so any standard ways of creating a custom camera UI apply. An example of a really simple custom UI can be viewed in the Test App.
