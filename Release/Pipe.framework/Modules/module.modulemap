@@ -1,0 +1,6 @@
+framework module Pipe {
+  umbrella header "Pipe.h"
+
+  export *
+  module * { export * }
+}

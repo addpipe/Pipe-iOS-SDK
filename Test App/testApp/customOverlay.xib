@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="btnRec" destination="ehV-FG-VT0" id="PwK-y9-7qj"/>
+                <outlet property="btnStop" destination="Ctg-ey-FV0" id="uYU-rw-1O1"/>
+                <outlet property="customView" destination="iN0-l3-epB" id="e7D-3h-SGW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ctg-ey-FV0">
+                    <rect key="frame" x="231" y="486" width="139" height="30"/>
+                    <color key="backgroundColor" red="0.2218255210593042" green="0.6564986219787361" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Custom Stop Button">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stopButtonPressed:" destination="-1" eventType="touchUpInside" id="AFH-z2-vSt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kLV-iP-FFi">
+                    <rect key="frame" x="224" y="547" width="154" height="30"/>
+                    <color key="backgroundColor" red="0.14453414835456035" green="0.63349905638666693" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Custom Cancel Button">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="closeButtonPressed:" destination="-1" eventType="touchUpInside" id="aUU-QC-38b"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehV-FG-VT0">
+                    <rect key="frame" x="222" y="441" width="156" height="30"/>
+                    <color key="backgroundColor" red="0.1837401326908249" green="0.66536684282943237" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Custom Record Button">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="recordButtonPressed:" destination="-1" eventType="touchUpInside" id="Mf9-vL-PTI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="kLV-iP-FFi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5vV-95-TZL"/>
+                <constraint firstItem="kLV-iP-FFi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="DlX-7J-gVa"/>
+                <constraint firstItem="Ctg-ey-FV0" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="v2B-eU-qLi"/>
+                <constraint firstItem="ehV-FG-VT0" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vFV-nm-74X"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
