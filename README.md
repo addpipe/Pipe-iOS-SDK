@@ -17,6 +17,7 @@ PipeRecorder* recorder = [[PipeRecorder alloc] initWithPipeAccountHash:@"YOUR_PI
 
 [self presentViewController:recorder animated:true completion:nil];
 ```
+Your Pipe Account Hash can be found in your Pipe account settings page.
 
 The above lines of code will initialize the Pipe recorder with the default options:
 * SD recording
@@ -51,6 +52,8 @@ recorder.recordHD = TRUE;
 ```
 recorder.payload = @"My custom data payload";
 ```
+
+This payload corresponds to the payload that will be sent back via Webhooks.
 
 ## Customizing the UI
 
