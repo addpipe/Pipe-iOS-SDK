@@ -3,7 +3,7 @@
 [Pipe](https://addpipe.com/) handles recording video from web and mobile, all the different file formats, ensures secure storage & delivery and has the JS and Webhook APIs needed for a seamless integration.
 
 # How to setup
-* Create iOS App
+* Create an iOS App
 * Add Pipe.framework in your app target General->Embedded Binaries section.  In the resulting popup window ensure that "Copy items if needed" is checked.  Xcode will automatically add the framework to the "Linked Frameworks and Libraries" section as well.
 
 # Initializing the Pipe recorder
