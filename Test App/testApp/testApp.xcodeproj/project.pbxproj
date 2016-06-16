@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		195E21CB1C96F696009D3ABB /* customOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 195E21CA1C96F696009D3ABB /* customOverlay.xib */; };
-		19622BEF1C99786B006BAD07 /* Pipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19622BEE1C99786B006BAD07 /* Pipe.framework */; };
-		19622BF01C99786B006BAD07 /* Pipe.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 19622BEE1C99786B006BAD07 /* Pipe.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1963A3EE1C8F24ED0041B17F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1963A3ED1C8F24ED0041B17F /* main.m */; };
 		1963A3F11C8F24ED0041B17F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1963A3F01C8F24ED0041B17F /* AppDelegate.m */; };
 		1963A3F41C8F24ED0041B17F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1963A3F31C8F24ED0041B17F /* ViewController.m */; };
@@ -18,6 +16,8 @@
 		1963A3FC1C8F24ED0041B17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1963A3FA1C8F24ED0041B17F /* LaunchScreen.storyboard */; };
 		1963A4071C8F24EE0041B17F /* testAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1963A4061C8F24EE0041B17F /* testAppTests.m */; };
 		1963A4121C8F24EE0041B17F /* testAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1963A4111C8F24EE0041B17F /* testAppUITests.m */; };
+		1990FE461D12BE7A007FBB21 /* Pipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1990FE451D12BE7A007FBB21 /* Pipe.framework */; };
+		1990FE471D12BE7A007FBB21 /* Pipe.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1990FE451D12BE7A007FBB21 /* Pipe.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		195EA2461C91C4A9005F1A7C /* Embed Frameworks */ = {
+		1966FF7F1D1290C900DE8D74 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				19622BF01C99786B006BAD07 /* Pipe.framework in Embed Frameworks */,
+				1990FE471D12BE7A007FBB21 /* Pipe.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,7 +53,6 @@
 
 /* Begin PBXFileReference section */
 		195E21CA1C96F696009D3ABB /* customOverlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = customOverlay.xib; path = ../customOverlay.xib; sourceTree = "<group>"; };
-		19622BEE1C99786B006BAD07 /* Pipe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pipe.framework; sourceTree = "<group>"; };
 		1963A3E91C8F24ED0041B17F /* testApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1963A3ED1C8F24ED0041B17F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1963A3EF1C8F24ED0041B17F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		1963A40D1C8F24EE0041B17F /* testAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1963A4111C8F24EE0041B17F /* testAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testAppUITests.m; sourceTree = "<group>"; };
 		1963A4131C8F24EE0041B17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1990FE451D12BE7A007FBB21 /* Pipe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pipe.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19622BEF1C99786B006BAD07 /* Pipe.framework in Frameworks */,
+				1990FE461D12BE7A007FBB21 /* Pipe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 		1963A3E01C8F24ED0041B17F = {
 			isa = PBXGroup;
 			children = (
-				19622BEE1C99786B006BAD07 /* Pipe.framework */,
+				1990FE451D12BE7A007FBB21 /* Pipe.framework */,
 				1963A3EB1C8F24ED0041B17F /* testApp */,
 				1963A4051C8F24EE0041B17F /* testAppTests */,
 				1963A4101C8F24EE0041B17F /* testAppUITests */,
@@ -172,7 +172,7 @@
 				1963A3E51C8F24ED0041B17F /* Sources */,
 				1963A3E61C8F24ED0041B17F /* Frameworks */,
 				1963A3E71C8F24ED0041B17F /* Resources */,
-				195EA2461C91C4A9005F1A7C /* Embed Frameworks */,
+				1966FF7F1D1290C900DE8D74 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

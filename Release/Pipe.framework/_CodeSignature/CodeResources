@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		q1sCqvMCLTc8C/q0fX3HxYz/q7Y=
+		GCmf3LLTdarihP0Fn7giFR8JEDE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -28,21 +28,49 @@
 	<key>files2</key>
 	<dict>
 		<key>Headers/Pipe.h</key>
-		<data>
-		AVb7CpiZu9AaDuTf/3Df5lAbyqU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			AVb7CpiZu9AaDuTf/3Df5lAbyqU=
+			</data>
+			<key>hash2</key>
+			<data>
+			hNszC9iN8LglsZRPI4Eh89577DvtSaJkUbPe2QztmTA=
+			</data>
+		</dict>
 		<key>Headers/PipeDelegate.h</key>
-		<data>
-		v8/iz+3K1Vv80ud7NyjtryNMzj8=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			v8/iz+3K1Vv80ud7NyjtryNMzj8=
+			</data>
+			<key>hash2</key>
+			<data>
+			AtN2HIzKugsBg3rqZNAB83+D1Qvl+pymvgXBIRQXcnA=
+			</data>
+		</dict>
 		<key>Headers/PipeRecorder.h</key>
-		<data>
-		nUOk2GmtKfJ0cWyeYny+lgzMwoo=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			nUOk2GmtKfJ0cWyeYny+lgzMwoo=
+			</data>
+			<key>hash2</key>
+			<data>
+			k8xQhQwId6P5xBG5nJxTpluzP6bSR2i8i39rQIJeUGo=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
-		<data>
-		SgjyHI98RTsK1tVVoHpL0qBAsek=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			SgjyHI98RTsK1tVVoHpL0qBAsek=
+			</data>
+			<key>hash2</key>
+			<data>
+			+BBK33AT+hbWbOV5L+sfVa8PSNU3eqAYcOyUD446RUA=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
