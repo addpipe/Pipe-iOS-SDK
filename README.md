@@ -41,7 +41,9 @@ recorder.maxDuration = 60; // or any duration in seconds
 
 ```
 
-## Changing the video quality
+## Changing the video resolution
+
+The SDK defaults to 640x480 but it can also record in 1280x720 (HD). For 1280x720 (HD) use ```recorder.recordHD = TRUE;```
 
 ```
 recorder.recordHD = TRUE;
