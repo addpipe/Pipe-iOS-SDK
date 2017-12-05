@@ -6,19 +6,19 @@
 	<dict>
 		<key>Headers/Pipe.h</key>
 		<data>
-		AVb7CpiZu9AaDuTf/3Df5lAbyqU=
+		vTew19UNVRAl1g+SYbsgMzFGq6M=
 		</data>
 		<key>Headers/PipeDelegate.h</key>
 		<data>
-		v8/iz+3K1Vv80ud7NyjtryNMzj8=
+		nPwpTwwYVMQYju8B5VX38aAJmQk=
 		</data>
 		<key>Headers/PipeRecorder.h</key>
 		<data>
-		nUOk2GmtKfJ0cWyeYny+lgzMwoo=
+		xTGReE9r0gN+FyBSfKC/6GsHv5I=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GCmf3LLTdarihP0Fn7giFR8JEDE=
+		n5iXNY9ahboSE8VZQMM/TbxpS4w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -31,33 +31,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AVb7CpiZu9AaDuTf/3Df5lAbyqU=
+			vTew19UNVRAl1g+SYbsgMzFGq6M=
 			</data>
 			<key>hash2</key>
 			<data>
-			hNszC9iN8LglsZRPI4Eh89577DvtSaJkUbPe2QztmTA=
+			JOua/UwVx+m+EWZcPHILG8mNw16Y4XsqY8NPUJoeFMs=
 			</data>
 		</dict>
 		<key>Headers/PipeDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v8/iz+3K1Vv80ud7NyjtryNMzj8=
+			nPwpTwwYVMQYju8B5VX38aAJmQk=
 			</data>
 			<key>hash2</key>
 			<data>
-			AtN2HIzKugsBg3rqZNAB83+D1Qvl+pymvgXBIRQXcnA=
+			aaKFPiG77toNsXISGgOtwMRn7pD4DuDvIbrIBbYBGSk=
 			</data>
 		</dict>
 		<key>Headers/PipeRecorder.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nUOk2GmtKfJ0cWyeYny+lgzMwoo=
+			xTGReE9r0gN+FyBSfKC/6GsHv5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			k8xQhQwId6P5xBG5nJxTpluzP6bSR2i8i39rQIJeUGo=
+			Q1f73zlAGaeBnvqf97yIoh5deMnoFrjryhCl8ecfZO8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -89,6 +89,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -134,6 +139,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>
