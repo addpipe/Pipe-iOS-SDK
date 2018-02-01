@@ -3,7 +3,7 @@
 //  testApp
 //
 //  Created by Remus on 08/03/16.
-//  Copyright © 2016 nusofthq. All rights reserved.
+//  Copyright © 2018 Pipe Services SRL. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -44,8 +44,8 @@
 
 - (IBAction)recordVideo:(UIButton *)sender {
     
-    _recorder.maxDuration = 5;
-    _recorder.recordHD = FALSE;
+    _recorder.maxDuration = 60;
+    _recorder.recordHD = TRUE;
     _recorder.payload = @"Test payload for recording default";
     
     [self presentViewController:_recorder animated:true completion:nil];
