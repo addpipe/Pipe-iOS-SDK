@@ -3,7 +3,7 @@
 //  Pipe
 //
 //  Created by Remus on 08/03/16.
-//  Copyright © 2016 Pipe Services SRL. All rights reserved.
+//  Copyright © 2018 Pipe Services SRL. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
